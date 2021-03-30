@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel ="stylesheet" type="text/css" href="webpage.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<script src="webpage.js"></script>
+<div id="name">
+<button class = "tablinks" onclick="openPage(event, 'home')"><h1>BOON YEOW KOH</h1></button>
+</div>
+<hr>
+<div class= "tab">
+  <button class = "tablinks" onclick="openPage(event, 'projects')">Projects</button>
+  <button class = "tablinks" onclick="openPage(event, 'resume')">Resume</button>
+  <button class = "tablinks" onclick="openPage(event, 'contact')">Contact</button>
+</div>
+
+<div id ="home" class = "tabcontent">
+  <div class="content" id="intro">
+    <img src= "WM2_0729 copy.jpg" alt="self portrait" id="img1">
+    <h1>Hi there, I'm Boon Yeow!</h1>
+    <p>I am a third-year computer science student studying at Arizona State Univeristy. I am from Singapore but I grew up in Guangzhou, China before moving back to Singapore. During my free time, I like to do mountain biking, hiking, and baking.</p>
+  </div>
+  <div class="content" id="project">
+    <h1>Projects</h1>
+    <p>Boon Yeow has worked on</p>
+  </div>
+  <div class="content" id="lead">
+    <img src= "70087306_1658214444308613_5639414333071949824_o.jpg" alt="leadership" id="img2">
+    <h1>Leadership</h1>
+      <p>I co-founded the Singapore Student Association in Arizona State Univerisity in 2019
+         to serve the Singaporean students and to help others learn more about Singapore culture. In addition I have partnered with Universities in the west coast from Berkeley, Standford, UCLA, UW, University of Arizona to host social events for Singaporean students to help students make new frirends during the pandemic.
+        <br><br>Besides the Singapore students association, I am also a leader and facilitator for Bridges Undergrads, a Christian organization to support international students in arizona state univeristy with their needs.I facilitate family groups to help international students learn about the bible and create commnunity.</p>
+  </div>
+</div>
+<div id ="resume" class = "tabcontent">
+  <embed src="Boon Yeow Resume.pdf" target="_blank" type="application/pdf" width="100%" height="600px" />
+</div>
+<div id="contact" class = "tabcontent">
+  <div class = "content" id="intouch">
+    <h1>Get in touch</h1>
+    <div id="images">
+    <a href="https://github.com/04kohb"><img src="github.png" alt= "github"  id="img4"></a>
+    <a href="https://www.linkedin.com/in/boonyeow/"><img src="linkedin.png" alt ="linkedlin"  id="img5"></a>
+    <h3>Email: yeow.koh@gmail.com</h3>
+    </div>
+  </div>
+</div>
+<div id ="projects" class = "tabcontent">
+  <div class = "content" id="intro">
+  <h3>Surbana Jurong Internship Project</h3>
+  <img src="RPIProj.png" alt= "RPI" id="img7">
+  <p> I created a simple lift monitoring device by writing a C program using Raspberry Pi and serial communication (UART) to transmit information between the Raspberry Pi and the laptop to send lift fault messages. This project is significant because most of the software and hardware of Lift Monitoring devices are developed my external companies. This project was created to help Surbana Jurong study lift monitoring devices so they can devep their own lift monitoring software in the future.</p>
+
+  </div>
+  <div class = "content" id="project">
+    <h3>Personal Website</h3>
+    <p> This is version 2 of my personal website, which is developed using HTML, CSS, and JavaScript.</p>
+  </div>
+    <div class = "content" id="lead">
+      <h3>ASU Singapore Student Association Website</h3>
+      <a href="https://asussa.com"><img src="SSAweb.png" alt= "SSA" id="img6"></a>
+      <p> Created a Website for the Singapore students using Wordpress to host photos and provide resources to our members</p>
+
+    </div>
+</body>
+</html>
